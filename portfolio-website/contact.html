@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Contact Us Page</title>
+  <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+  
+  <section>
+    <div class="section-header">
+       <nav>
+            <ul class="home-contact">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>    
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out for any inquiries, collaboration opportunities, or professional discussions. We are always open to connecting with individuals who share a passion for innovation and learning. Whether you have a project idea or simply want to network, we’d be happy to connect. Clear communication and meaningful connections are important to us. We look forward to hearing from you.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Address</h4>
+              <p>Sylvanus Koroma Campus, <br/>  Yoni</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Phone</h4>
+              <p>+232 32 849200</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Email</h4>
+             <p>collectivethinkersunimak@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <h2>Send Message</h2>
+            <input type="hidden" name="access_key" value="5ac6be0c-d871-4a58-a851-b2f7e298c2c5">
+            <div class="input-box">
+              <input type="text" required="true" name="name">
+              <span>Full Name</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="email" required="true" name="email">
+              <span>Email</span>
+            </div>
+            
+            <div class="input-box">
+              <textarea required="true" name="massage"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="submit" value="Send" name="">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

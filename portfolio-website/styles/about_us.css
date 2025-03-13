@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-image: url(Banner-img3-1024x768.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+}
+.home-contact li a{
+    font-size: 40px;
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.Span{
+    color: #f9004d;
+}
+    
+.about-text p{
+    color: #919f9f;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 2px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    list-style: none;
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
